@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "PaytomateMobile",
+    "slug": "PaytomateMobile",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "PaytomateMobile"
+}
