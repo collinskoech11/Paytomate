@@ -1,17 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
+import * as React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import tw from 'tailwind-react-native-classnames'
-
+import Navigator from "./routes/HomeStack"
 
 export default function App() {
   return (
-    <View style={[tw`flex flex-row items-center h-8 bg-red-900 `,{
-      position: "fixed"
-    }]}>
-      <Text>Paytomate</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Navigator/>
   );
 }
 
