@@ -5,7 +5,8 @@
     "jsx": "react",
     "strict": true,
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false, 
   },
   "extends": "expo/tsconfig.base"
 }
